@@ -1,0 +1,26 @@
+npm init
+entry point: (index.js) server.js
+
+express 
+mongoose
+body-parser
+passport
+bcrypt
+jsonwebtoken
+passport-jwt
+nodemon (node monitor)
+node -v
+which node
+
+npm install express
+npm install body-parser
+
+ node server.js
+ npm i nodemon(auto watch the folder)=> npm start
+
+ https://www.mongodb.com/cloud/atlas/register
+digital ossion () 
+
+ mongodb+srv://mostafa:gahova@cluster0-c1t5b.mongodb.net/test?retryWrites=true&w=majority
+
+ 
