@@ -23,4 +23,13 @@ digital ossion ()
 
  mongodb+srv://mostafa:gahova@cluster0-c1t5b.mongodb.net/test?retryWrites=true&w=majority
 
+ branches
+ ----
+ git branch new_branch
+ git  check new_branch
+ git push origin new_branch
+ ----
+ git --upstream master
+
+ rm -rf amingo
  
