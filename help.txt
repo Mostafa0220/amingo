@@ -32,4 +32,7 @@ digital ossion ()
  git --upstream master
 
  rm -rf amingo
+ git diff and exit just press q
+ ----
+
  

@@ -9,6 +9,10 @@ const PostSchema= new Schema({
         type:String,
         required:true
     },
+    user_iid:{
+        type:String,
+        required:true
+    },
     created:{
         type:Date,
         default:Date.now
