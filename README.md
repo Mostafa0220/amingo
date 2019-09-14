@@ -6,7 +6,7 @@ A social network platform
 3. `npm start`
 
 # Dependencies
-1. [body-parser](#) - For parsing incoming request
-2. [Express](#) -Nodejs framework for building web and api applications.
-3. [Mongoose](#) -For model  application data
-4. [nodemon](#) - For automatic restart the application.
+1. [body-parser](https://www.npmjs.com/package/body-parser) - For parsing incoming request
+2. [Express](https://expressjs.com) -Nodejs framework for building web and api applications.
+3. [Mongoose](https://mongoosejs.com) -For model  application data
+4. [nodemon](https://www.npmjs.com/package/nodemon) - For automatic restart the application.
