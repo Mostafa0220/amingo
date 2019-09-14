@@ -27,21 +27,6 @@ router.post('/add', (req, res) =>{
             res.json(err)
         })
 });
-router.post('/addByEmail', (req, res) =>{
-    const newPost = new Post({
-        email: req.body.email,
-        message: req.body.message
-    })
-
-    newPost
-        .save()
-        .then(post=> {
-            res.json(post)
-        })
-        .catch(err=> {
-            res.json(err)
-        })
-});
 /**
  * Get route to fetch all posts from collection
  * 
