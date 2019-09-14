@@ -2,7 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const User=require('./models/User');
-const db="mongodb+srv://mostafa:gahova@cluster0-c1t5b.mongodb.net/test?retryWrites=true&w=majority";
+const keys=require('./config/keys');
+const db=keys.mongoURI;
 
 mongoose
 .connect(db,{})
