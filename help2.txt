@@ -4,3 +4,6 @@
 https://pure-forest-76067.herokuapp.com/ | https://git.heroku.com/pure-forest-76067.git
 
 NODE_ENV=production npm start
+
+npm install passport passport-jwt jsonwebtoken bcrypt
+http://www.passportjs.org/packages/passport-jwt/
