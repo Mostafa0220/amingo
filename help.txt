@@ -15,6 +15,7 @@ which node
 npm install express
 npm install body-parser
 
+npm start dev
  node server.js
  npm i nodemon(auto watch the folder)=> npm start
 

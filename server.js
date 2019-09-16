@@ -7,7 +7,7 @@ const passport=require('passport');
 const db=keys.mongoURI;
 
 mongoose
-.connect(db,{})
+.connect(db,{useNewUrlParser:true, useUnifiedTopology: true })
 .then(()=>console.log("DB Connected"))
 .catch(()=>console.log("err"));
 const app = express();
